@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="login-flex">
+            <div class="login-container">
+                <div class="logo-container">
+                    <img class="logo" src="Assets/Follow.png">
+                </div>
+                <form action="./VideoCall.html" onsubmit="return login()">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <input class="input-login" id="username" type="text" placeholder="Username"></input>
+                    <br>
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <input class="input-login" id="password" type="password" placeholder="Password"></input>
+                    <button class="btn" onClick="login()">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="LoginJS.js"></script>
+</body>
+
+</html>

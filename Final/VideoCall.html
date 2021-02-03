@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Video Call Page</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <button class="btn-video-page" id="btn-leave">Leave</button>
+        <button class="btn-video-page" id="btn-join">Join</button>
+        <input class="join-input" type="text" placeholder="Room" id="room" value="room" />
+        <input class="join-input" type="text" placeholder="Username" id="username" value="name" />
+        <div class="logo-container-small">
+            <img class="logo-small" src="Assets/Follow.png">
+        </div>
+    </div>
+    <div class="leader-flex">
+        <div class="leader">
+            <div id="leader-screen">
+            </div>
+            <span id="leader-name">
+            </span>
+        </div>
+    </div>
+    <div class="follower-flex">
+        <div id="followers">
+            <div class="controls">
+                <svg id="toggle-screen" class="icon-controls" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2.22l.123.489.804.804A1 1 0 0113 18H7a1 1 0 01-.707-1.707l.804-.804L7.22 15H5a2 2 0 01-2-2V5zm5.771 7H5V5h10v7H8.771z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg id="toggle-swap" class="icon-controls" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+                </svg>
+                <svg id="toggle-video" class="icon-controls" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                </svg>
+                <svg id="toggle-audio" class="icon-controls" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                </svg>
+            </div>
+            <div class="screen-container">
+                <div class="follower-screen">
+                </div>
+                <span class="follower-name">
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.0.0.js"></script>
+    <script src="VideoJS.js"></script>
+</body>
+
+</html>
