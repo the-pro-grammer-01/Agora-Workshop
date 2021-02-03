@@ -1,11 +1,11 @@
 # Agora-Workshop
 
--- Final Project for Agora Workshop --
+# Final Project for Agora Workshop
 
 An implementation of my own video chat app (Follow) using Agora's API. Features a login page and video call page.
 
 
--- Concept --
+# Concept 
 
 Sometimes video just isn't enough and you need to see what others are doing in order to keep up with the flow. That's where Follow comes in! 
 
@@ -13,8 +13,13 @@ Everyone has the option of sharing their screen and showing others what they're 
 
 Just like ducklings, the ultimate goal is to follow the leader, but if you fall behind, it can be to your benefit to focus on someone else--to follow one of the other ducklings--in order to get to where you want to go. 
 
+# Pages
 
--- Applications --
+<img width="964" src="https://github.com/the-pro-grammer-01/the-pro-grammer-01.github.io/blob/master/Final/Assets/LoginPage.png">
+
+<img width="964" src="https://github.com/the-pro-grammer-01/the-pro-grammer-01.github.io/blob/master/Final/Assets/VideoCall.png">
+
+# Applications 
 
 What is this useful for?
 
@@ -27,7 +32,7 @@ This would work well for classes or workshops, whether for art, coding, or anyth
 Follow's concept also offers greater collaboration than the normal video calling service, since it allows for multiple people to share their screens at once. Follow therefore would work well for group projects, brainstorms, hackathons, and other collaborative efforts.
 
 
--- Potential for Additional Features --
+# Potential for Additional Features 
 
 ** Ability to click on screenshares and make them larger for easier viewing.
 
@@ -38,6 +43,6 @@ OR
 ** Ability to mark certain screens as favorites (for easier access).
 
 
--- Disclaimer -- 
+# Disclaimer
 
 This is simply a prototype and is by no means a fully functional project.
